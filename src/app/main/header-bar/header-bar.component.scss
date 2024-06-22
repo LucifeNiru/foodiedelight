@@ -1,0 +1,31 @@
+@import "../../../foodiedelightvariables.scss";
+
+@font-face {
+  font-family: "manifabold";
+  src: url("../../../assets/ManifaV2-SemiBold.woff");
+}
+
+@font-face {
+  font-family: "manifaregular";
+  src: url("../../../assets/ManifaV2-Regular.ttf");
+}
+
+.headerwrapper {
+  background-color: $color-primary;
+  height: 10%;
+  padding: 10px 20px 10px 20px;
+  border-radius: 30px;
+}
+
+.headertext {
+  color: $color-white;
+  font-weight: 550;
+  font-size: 2vw;
+  font-family: manifaregular;
+}
+
+
+.img-fluid {
+    border-radius: 50%;
+    background-color: $color-grey;
+}

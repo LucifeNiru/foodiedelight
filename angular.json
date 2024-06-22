@@ -56,6 +56,7 @@
             },
             "development": {
               "buildOptimizer": false,
+              "aot": false,
               "optimization": false,
               "vendorChunk": true,
               "extractLicenses": false,
@@ -103,5 +104,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "7ccc4b34-f7fc-4ad0-8d37-1ca6373def0c"
   }
 }

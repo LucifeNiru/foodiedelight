@@ -1,0 +1,28 @@
+@import '../../../foodiedelightvariables.scss';
+
+@font-face {
+    font-family: "manifaregular";
+    src: url("../../../assets/ManifaV2-Regular.ttf");
+  }
+  
+.popup-title{
+    font-size: 2.2vw;
+    font-weight: 550;
+    font-family: manifaregular;
+    color: $color-primary;
+}
+
+::ng-deep .inputData {
+    font-size: 1vw !important;
+
+}
+
+.label-class{
+    width: 10vw;
+}
+
+.labeltxt{
+    font-size: 1.6vw;
+    font-weight: 550;
+    font-family: manifaregular;
+}

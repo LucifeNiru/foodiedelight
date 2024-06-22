@@ -1,0 +1,66 @@
+<div class="flex-column">
+
+    <div class="flex-row-center">
+        <span class="popup-title">{{ title }} Restaurant</span>
+    </div>
+<br>
+    <div class="flex-column" [formGroup]="detsForm">
+        <div class="flex-row-align-center">
+            <div class="label-class">
+                <span class="labeltxt">Name:</span>
+            </div>
+            
+            <mat-form-field class="form-field-width-30vw" appearance="outline">
+                <input matInput placeholder="" formControlName="name" class="inputData" />
+            </mat-form-field>
+        </div>
+
+        <div class="flex-row-align-center">
+            <div class="label-class">
+                <span class="labeltxt">Description:</span>
+            </div>
+            
+            <mat-form-field class="form-field-width-30vw" appearance="outline">
+                <input matInput placeholder="" formControlName="description" class="inputData" />
+            </mat-form-field>
+        </div>
+
+        
+        <div class="flex-row-align-center">
+            <div class="label-class">
+                <span class="labeltxt">Location:</span>
+            </div>
+            
+            <mat-form-field class="form-field-width-30vw" appearance="outline">
+                <input matInput placeholder="" formControlName="location" class="inputData" />
+            </mat-form-field>
+        </div>
+        
+
+        <div class="flex-row-align-center">
+            <div class="label-class">
+                <span class="labeltxt">Email:</span>
+            </div>
+            
+            <mat-form-field class="form-field-width-30vw" appearance="outline">
+                <input matInput placeholder="" formControlName="email" class="inputData" />
+            </mat-form-field>
+        </div>
+
+        <div class="flex-row-align-center">
+            <div class="label-class">
+                <span class="labeltxt">Phone:</span>
+            </div>
+            
+            <mat-form-field class="form-field-width-30vw" appearance="outline">
+                <input matInput placeholder="" formControlName="phone" class="inputData" />
+            </mat-form-field>
+        </div>
+    </div>
+ <br>
+    <div class="flex-row-center">
+        <button mat-raised-button class="add-button" (click)="addUpdateData()">
+            <span class="button-text">{{ title }}</span>
+          </button>
+    </div>
+</div>
